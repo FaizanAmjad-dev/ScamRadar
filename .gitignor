@@ -1,0 +1,5 @@
+Frontend/node_modules/
+Frontend/venv/
+Backend/db.postgress/
+Backend/db.sqlite3/
+Backend/db.postgress/

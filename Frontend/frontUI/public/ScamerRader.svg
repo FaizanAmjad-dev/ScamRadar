@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="shieldClip">
+      <path d="M500 80 L745 165 Q790 180 790 230 V475
+               Q790 700 650 835 Q575 905 500 935
+               Q425 905 350 835 Q210 700 210 475 V230
+               Q210 180 255 165 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Shield -->
+  <g clip-path="url(#shieldClip)">
+    <rect x="180" y="70" width="320" height="880" fill="#AEB0B2"/>
+    <rect x="500" y="70" width="320" height="880" fill="#102B4D"/>
+  </g>
+
+  <!-- Check mark -->
+  <path d="M385 490 L475 580 L650 385"
+        fill="none"
+        stroke="#E8B83F"
+        stroke-width="72"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
